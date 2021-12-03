@@ -15,6 +15,10 @@ div{
     animation: H1 5s infinite;
 }
 
+#X{
+    animation: X 5s infinite;
+}
+
 @keyframes cambiar_fondo{
     0% { background: linear-gradient(90deg, rgb(0.0,0,255.0) 0%, rgb(255.0,0,0.0) 100%); }
     1% { background: linear-gradient(90deg, rgb(5.1,0,249.9) 0%, rgb(249.9,0,5.1) 100%); }
@@ -120,105 +124,212 @@ div{
 }
 
 @keyframes H1{
-    0% { color: rgb(255.00,255,0) ; font-size: 25.00vw; padding-top: 0.0vh; }
-    1% { color: rgb(249.90,255,0) ; font-size: 24.60vw; padding-top: 0.5vh; }
-    2% { color: rgb(244.80,255,0) ; font-size: 24.20vw; padding-top: 1.0vh; }
-    3% { color: rgb(239.70,255,0) ; font-size: 23.80vw; padding-top: 1.5vh; }
-    4% { color: rgb(234.60,255,0) ; font-size: 23.40vw; padding-top: 2.0vh; }
-    5% { color: rgb(229.50,255,0) ; font-size: 23.00vw; padding-top: 2.5vh; }
-    6% { color: rgb(224.40,255,0) ; font-size: 22.60vw; padding-top: 3.0vh; }
-    7% { color: rgb(219.30,255,0) ; font-size: 22.20vw; padding-top: 3.5vh; }
-    8% { color: rgb(214.20,255,0) ; font-size: 21.80vw; padding-top: 4.0vh; }
-    9% { color: rgb(209.10,255,0) ; font-size: 21.40vw; padding-top: 4.5vh; }
-    10% { color: rgb(204.00,255,0) ; font-size: 21.00vw; padding-top: 5.0vh; }
-    11% { color: rgb(198.90,255,0) ; font-size: 20.60vw; padding-top: 5.5vh; }
-    12% { color: rgb(193.80,255,0) ; font-size: 20.20vw; padding-top: 6.0vh; }
-    13% { color: rgb(188.70,255,0) ; font-size: 19.80vw; padding-top: 6.5vh; }
-    14% { color: rgb(183.60,255,0) ; font-size: 19.40vw; padding-top: 7.0vh; }
-    15% { color: rgb(178.50,255,0) ; font-size: 19.00vw; padding-top: 7.5vh; }
-    16% { color: rgb(173.40,255,0) ; font-size: 18.60vw; padding-top: 8.0vh; }
-    17% { color: rgb(168.30,255,0) ; font-size: 18.20vw; padding-top: 8.5vh; }
-    18% { color: rgb(163.20,255,0) ; font-size: 17.80vw; padding-top: 9.0vh; }
-    19% { color: rgb(158.10,255,0) ; font-size: 17.40vw; padding-top: 9.5vh; }
-    20% { color: rgb(153.00,255,0) ; font-size: 17.00vw; padding-top: 10.0vh; }
-    21% { color: rgb(147.90,255,0) ; font-size: 16.60vw; padding-top: 10.5vh; }
-    22% { color: rgb(142.80,255,0) ; font-size: 16.20vw; padding-top: 11.0vh; }
-    23% { color: rgb(137.70,255,0) ; font-size: 15.80vw; padding-top: 11.5vh; }
-    24% { color: rgb(132.60,255,0) ; font-size: 15.40vw; padding-top: 12.0vh; }
-    25% { color: rgb(127.50,255,0) ; font-size: 15.00vw; padding-top: 12.5vh; }
-    26% { color: rgb(122.40,255,0) ; font-size: 14.60vw; padding-top: 13.0vh; }
-    27% { color: rgb(117.30,255,0) ; font-size: 14.20vw; padding-top: 13.5vh; }
-    28% { color: rgb(112.20,255,0) ; font-size: 13.80vw; padding-top: 14.0vh; }
-    29% { color: rgb(107.10,255,0) ; font-size: 13.40vw; padding-top: 14.5vh; }
-    30% { color: rgb(102.00,255,0) ; font-size: 13.00vw; padding-top: 15.0vh; }
-    31% { color: rgb(96.90,255,0) ; font-size: 12.60vw; padding-top: 15.5vh; }
-    32% { color: rgb(91.80,255,0) ; font-size: 12.20vw; padding-top: 16.0vh; }
-    33% { color: rgb(86.70,255,0) ; font-size: 11.80vw; padding-top: 16.5vh; }
-    34% { color: rgb(81.60,255,0) ; font-size: 11.40vw; padding-top: 17.0vh; }
-    35% { color: rgb(76.50,255,0) ; font-size: 11.00vw; padding-top: 17.5vh; }
-    36% { color: rgb(71.40,255,0) ; font-size: 10.60vw; padding-top: 18.0vh; }
-    37% { color: rgb(66.30,255,0) ; font-size: 10.20vw; padding-top: 18.5vh; }
-    38% { color: rgb(61.20,255,0) ; font-size: 9.80vw; padding-top: 19.0vh; }
-    39% { color: rgb(56.10,255,0) ; font-size: 9.40vw; padding-top: 19.5vh; }
-    40% { color: rgb(51.00,255,0) ; font-size: 9.00vw; padding-top: 20.0vh; }
-    41% { color: rgb(45.90,255,0) ; font-size: 8.60vw; padding-top: 20.5vh; }
-    42% { color: rgb(40.80,255,0) ; font-size: 8.20vw; padding-top: 21.0vh; }
-    43% { color: rgb(35.70,255,0) ; font-size: 7.80vw; padding-top: 21.5vh; }
-    44% { color: rgb(30.60,255,0) ; font-size: 7.40vw; padding-top: 22.0vh; }
-    45% { color: rgb(25.50,255,0) ; font-size: 7.00vw; padding-top: 22.5vh; }
-    46% { color: rgb(20.40,255,0) ; font-size: 6.60vw; padding-top: 23.0vh; }
-    47% { color: rgb(15.30,255,0) ; font-size: 6.20vw; padding-top: 23.5vh; }
-    48% { color: rgb(10.20,255,0) ; font-size: 5.80vw; padding-top: 24.0vh; }
-    49% { color: rgb(5.10,255,0) ; font-size: 5.40vw; padding-top: 24.5vh; }
-    50% { color: rgb(0.00,255,0) ; font-size: 5.00vw; padding-top: 25.0vh; }
-    51% { color: rgb(5.10,255,0) ; font-size: 5.40vw; padding-top: 24.5vh; }
-    52% { color: rgb(10.20,255,0) ; font-size: 5.80vw; padding-top: 24.0vh; }
-    53% { color: rgb(15.30,255,0) ; font-size: 6.20vw; padding-top: 23.5vh; }
-    54% { color: rgb(20.40,255,0) ; font-size: 6.60vw; padding-top: 23.0vh; }
-    55% { color: rgb(25.50,255,0) ; font-size: 7.00vw; padding-top: 22.5vh; }
-    56% { color: rgb(30.60,255,0) ; font-size: 7.40vw; padding-top: 22.0vh; }
-    57% { color: rgb(35.70,255,0) ; font-size: 7.80vw; padding-top: 21.5vh; }
-    58% { color: rgb(40.80,255,0) ; font-size: 8.20vw; padding-top: 21.0vh; }
-    59% { color: rgb(45.90,255,0) ; font-size: 8.60vw; padding-top: 20.5vh; }
-    60% { color: rgb(51.00,255,0) ; font-size: 9.00vw; padding-top: 20.0vh; }
-    61% { color: rgb(56.10,255,0) ; font-size: 9.40vw; padding-top: 19.5vh; }
-    62% { color: rgb(61.20,255,0) ; font-size: 9.80vw; padding-top: 19.0vh; }
-    63% { color: rgb(66.30,255,0) ; font-size: 10.20vw; padding-top: 18.5vh; }
-    64% { color: rgb(71.40,255,0) ; font-size: 10.60vw; padding-top: 18.0vh; }
-    65% { color: rgb(76.50,255,0) ; font-size: 11.00vw; padding-top: 17.5vh; }
-    66% { color: rgb(81.60,255,0) ; font-size: 11.40vw; padding-top: 17.0vh; }
-    67% { color: rgb(86.70,255,0) ; font-size: 11.80vw; padding-top: 16.5vh; }
-    68% { color: rgb(91.80,255,0) ; font-size: 12.20vw; padding-top: 16.0vh; }
-    69% { color: rgb(96.90,255,0) ; font-size: 12.60vw; padding-top: 15.5vh; }
-    70% { color: rgb(102.00,255,0) ; font-size: 13.00vw; padding-top: 15.0vh; }
-    71% { color: rgb(107.10,255,0) ; font-size: 13.40vw; padding-top: 14.5vh; }
-    72% { color: rgb(112.20,255,0) ; font-size: 13.80vw; padding-top: 14.0vh; }
-    73% { color: rgb(117.30,255,0) ; font-size: 14.20vw; padding-top: 13.5vh; }
-    74% { color: rgb(122.40,255,0) ; font-size: 14.60vw; padding-top: 13.0vh; }
-    75% { color: rgb(127.50,255,0) ; font-size: 15.00vw; padding-top: 12.5vh; }
-    76% { color: rgb(132.60,255,0) ; font-size: 15.40vw; padding-top: 12.0vh; }
-    77% { color: rgb(137.70,255,0) ; font-size: 15.80vw; padding-top: 11.5vh; }
-    78% { color: rgb(142.80,255,0) ; font-size: 16.20vw; padding-top: 11.0vh; }
-    79% { color: rgb(147.90,255,0) ; font-size: 16.60vw; padding-top: 10.5vh; }
-    80% { color: rgb(153.00,255,0) ; font-size: 17.00vw; padding-top: 10.0vh; }
-    81% { color: rgb(158.10,255,0) ; font-size: 17.40vw; padding-top: 9.5vh; }
-    82% { color: rgb(163.20,255,0) ; font-size: 17.80vw; padding-top: 9.0vh; }
-    83% { color: rgb(168.30,255,0) ; font-size: 18.20vw; padding-top: 8.5vh; }
-    84% { color: rgb(173.40,255,0) ; font-size: 18.60vw; padding-top: 8.0vh; }
-    85% { color: rgb(178.50,255,0) ; font-size: 19.00vw; padding-top: 7.5vh; }
-    86% { color: rgb(183.60,255,0) ; font-size: 19.40vw; padding-top: 7.0vh; }
-    87% { color: rgb(188.70,255,0) ; font-size: 19.80vw; padding-top: 6.5vh; }
-    88% { color: rgb(193.80,255,0) ; font-size: 20.20vw; padding-top: 6.0vh; }
-    89% { color: rgb(198.90,255,0) ; font-size: 20.60vw; padding-top: 5.5vh; }
-    90% { color: rgb(204.00,255,0) ; font-size: 21.00vw; padding-top: 5.0vh; }
-    91% { color: rgb(209.10,255,0) ; font-size: 21.40vw; padding-top: 4.5vh; }
-    92% { color: rgb(214.20,255,0) ; font-size: 21.80vw; padding-top: 4.0vh; }
-    93% { color: rgb(219.30,255,0) ; font-size: 22.20vw; padding-top: 3.5vh; }
-    94% { color: rgb(224.40,255,0) ; font-size: 22.60vw; padding-top: 3.0vh; }
-    95% { color: rgb(229.50,255,0) ; font-size: 23.00vw; padding-top: 2.5vh; }
-    96% { color: rgb(234.60,255,0) ; font-size: 23.40vw; padding-top: 2.0vh; }
-    97% { color: rgb(239.70,255,0) ; font-size: 23.80vw; padding-top: 1.5vh; }
-    98% { color: rgb(244.80,255,0) ; font-size: 24.20vw; padding-top: 1.0vh; }
-    99% { color: rgb(249.90,255,0) ; font-size: 24.60vw; padding-top: 0.5vh; }
-    100% { color: rgb(255.00,255,0) ; font-size: 25.00vw; padding-top: 0.0vh; }    
+    0% { color: rgb(255.0,255,0) ; font-size: 25.0vw; padding-top: 0.0vh; }
+1% { color: rgb(249.9,255,0) ; font-size: 24.6vw; padding-top: 0.5vh; }
+2% { color: rgb(244.8,255,0) ; font-size: 24.2vw; padding-top: 1.0vh; }
+3% { color: rgb(239.7,255,0) ; font-size: 23.8vw; padding-top: 1.5vh; }
+4% { color: rgb(234.6,255,0) ; font-size: 23.4vw; padding-top: 2.0vh; }
+5% { color: rgb(229.5,255,0) ; font-size: 23.0vw; padding-top: 2.5vh; }
+6% { color: rgb(224.4,255,0) ; font-size: 22.6vw; padding-top: 3.0vh; }
+7% { color: rgb(219.3,255,0) ; font-size: 22.2vw; padding-top: 3.5vh; }
+8% { color: rgb(214.2,255,0) ; font-size: 21.8vw; padding-top: 4.0vh; }
+9% { color: rgb(209.1,255,0) ; font-size: 21.4vw; padding-top: 4.5vh; }
+10% { color: rgb(204.0,255,0) ; font-size: 21.0vw; padding-top: 5.0vh; }
+11% { color: rgb(198.9,255,0) ; font-size: 20.6vw; padding-top: 5.5vh; }
+12% { color: rgb(193.8,255,0) ; font-size: 20.2vw; padding-top: 6.0vh; }
+13% { color: rgb(188.7,255,0) ; font-size: 19.8vw; padding-top: 6.5vh; }
+14% { color: rgb(183.6,255,0) ; font-size: 19.4vw; padding-top: 7.0vh; }
+15% { color: rgb(178.5,255,0) ; font-size: 19.0vw; padding-top: 7.5vh; }
+16% { color: rgb(173.4,255,0) ; font-size: 18.6vw; padding-top: 8.0vh; }
+17% { color: rgb(168.3,255,0) ; font-size: 18.2vw; padding-top: 8.5vh; }
+18% { color: rgb(163.2,255,0) ; font-size: 17.8vw; padding-top: 9.0vh; }
+19% { color: rgb(158.1,255,0) ; font-size: 17.4vw; padding-top: 9.5vh; }
+20% { color: rgb(153.0,255,0) ; font-size: 17.0vw; padding-top: 10.0vh; }
+21% { color: rgb(147.9,255,0) ; font-size: 16.6vw; padding-top: 10.5vh; }
+22% { color: rgb(142.8,255,0) ; font-size: 16.2vw; padding-top: 11.0vh; }
+23% { color: rgb(137.7,255,0) ; font-size: 15.8vw; padding-top: 11.5vh; }
+24% { color: rgb(132.6,255,0) ; font-size: 15.4vw; padding-top: 12.0vh; }
+25% { color: rgb(127.5,255,0) ; font-size: 15.0vw; padding-top: 12.5vh; }
+26% { color: rgb(122.4,255,0) ; font-size: 14.6vw; padding-top: 13.0vh; }
+27% { color: rgb(117.3,255,0) ; font-size: 14.2vw; padding-top: 13.5vh; }
+28% { color: rgb(112.2,255,0) ; font-size: 13.8vw; padding-top: 14.0vh; }
+29% { color: rgb(107.1,255,0) ; font-size: 13.4vw; padding-top: 14.5vh; }
+30% { color: rgb(102.0,255,0) ; font-size: 13.0vw; padding-top: 15.0vh; }
+31% { color: rgb(96.9,255,0) ; font-size: 12.6vw; padding-top: 15.5vh; }
+32% { color: rgb(91.8,255,0) ; font-size: 12.2vw; padding-top: 16.0vh; }
+33% { color: rgb(86.7,255,0) ; font-size: 11.8vw; padding-top: 16.5vh; }
+34% { color: rgb(81.6,255,0) ; font-size: 11.4vw; padding-top: 17.0vh; }
+35% { color: rgb(76.5,255,0) ; font-size: 11.0vw; padding-top: 17.5vh; }
+36% { color: rgb(71.4,255,0) ; font-size: 10.6vw; padding-top: 18.0vh; }
+37% { color: rgb(66.3,255,0) ; font-size: 10.2vw; padding-top: 18.5vh; }
+38% { color: rgb(61.2,255,0) ; font-size: 9.8vw; padding-top: 19.0vh; }
+39% { color: rgb(56.1,255,0) ; font-size: 9.4vw; padding-top: 19.5vh; }
+40% { color: rgb(51.0,255,0) ; font-size: 9.0vw; padding-top: 20.0vh; }
+41% { color: rgb(45.9,255,0) ; font-size: 8.6vw; padding-top: 20.5vh; }
+42% { color: rgb(40.8,255,0) ; font-size: 8.2vw; padding-top: 21.0vh; }
+43% { color: rgb(35.7,255,0) ; font-size: 7.8vw; padding-top: 21.5vh; }
+44% { color: rgb(30.6,255,0) ; font-size: 7.4vw; padding-top: 22.0vh; }
+45% { color: rgb(25.5,255,0) ; font-size: 7.0vw; padding-top: 22.5vh; }
+46% { color: rgb(20.4,255,0) ; font-size: 6.6vw; padding-top: 23.0vh; }
+47% { color: rgb(15.3,255,0) ; font-size: 6.2vw; padding-top: 23.5vh; }
+48% { color: rgb(10.2,255,0) ; font-size: 5.8vw; padding-top: 24.0vh; }
+49% { color: rgb(5.1,255,0) ; font-size: 5.4vw; padding-top: 24.5vh; }
+50% { color: rgb(0.0,255,0) ; font-size: 5.0vw; padding-top: 25.0vh; }
+51% { color: rgb(5.1,255,0) ; font-size: 5.4vw; padding-top: 24.5vh; }
+52% { color: rgb(10.2,255,0) ; font-size: 5.8vw; padding-top: 24.0vh; }
+53% { color: rgb(15.3,255,0) ; font-size: 6.2vw; padding-top: 23.5vh; }
+54% { color: rgb(20.4,255,0) ; font-size: 6.6vw; padding-top: 23.0vh; }
+55% { color: rgb(25.5,255,0) ; font-size: 7.0vw; padding-top: 22.5vh; }
+56% { color: rgb(30.6,255,0) ; font-size: 7.4vw; padding-top: 22.0vh; }
+57% { color: rgb(35.7,255,0) ; font-size: 7.8vw; padding-top: 21.5vh; }
+58% { color: rgb(40.8,255,0) ; font-size: 8.2vw; padding-top: 21.0vh; }
+59% { color: rgb(45.9,255,0) ; font-size: 8.6vw; padding-top: 20.5vh; }
+60% { color: rgb(51.0,255,0) ; font-size: 9.0vw; padding-top: 20.0vh; }
+61% { color: rgb(56.1,255,0) ; font-size: 9.4vw; padding-top: 19.5vh; }
+62% { color: rgb(61.2,255,0) ; font-size: 9.8vw; padding-top: 19.0vh; }
+63% { color: rgb(66.3,255,0) ; font-size: 10.2vw; padding-top: 18.5vh; }
+64% { color: rgb(71.4,255,0) ; font-size: 10.6vw; padding-top: 18.0vh; }
+65% { color: rgb(76.5,255,0) ; font-size: 11.0vw; padding-top: 17.5vh; }
+66% { color: rgb(81.6,255,0) ; font-size: 11.4vw; padding-top: 17.0vh; }
+67% { color: rgb(86.7,255,0) ; font-size: 11.8vw; padding-top: 16.5vh; }
+68% { color: rgb(91.8,255,0) ; font-size: 12.2vw; padding-top: 16.0vh; }
+69% { color: rgb(96.9,255,0) ; font-size: 12.6vw; padding-top: 15.5vh; }
+70% { color: rgb(102.0,255,0) ; font-size: 13.0vw; padding-top: 15.0vh; }
+71% { color: rgb(107.1,255,0) ; font-size: 13.4vw; padding-top: 14.5vh; }
+72% { color: rgb(112.2,255,0) ; font-size: 13.8vw; padding-top: 14.0vh; }
+73% { color: rgb(117.3,255,0) ; font-size: 14.2vw; padding-top: 13.5vh; }
+74% { color: rgb(122.4,255,0) ; font-size: 14.6vw; padding-top: 13.0vh; }
+75% { color: rgb(127.5,255,0) ; font-size: 15.0vw; padding-top: 12.5vh; }
+76% { color: rgb(132.6,255,0) ; font-size: 15.4vw; padding-top: 12.0vh; }
+77% { color: rgb(137.7,255,0) ; font-size: 15.8vw; padding-top: 11.5vh; }
+78% { color: rgb(142.8,255,0) ; font-size: 16.2vw; padding-top: 11.0vh; }
+79% { color: rgb(147.9,255,0) ; font-size: 16.6vw; padding-top: 10.5vh; }
+80% { color: rgb(153.0,255,0) ; font-size: 17.0vw; padding-top: 10.0vh; }
+81% { color: rgb(158.1,255,0) ; font-size: 17.4vw; padding-top: 9.5vh; }
+82% { color: rgb(163.2,255,0) ; font-size: 17.8vw; padding-top: 9.0vh; }
+83% { color: rgb(168.3,255,0) ; font-size: 18.2vw; padding-top: 8.5vh; }
+84% { color: rgb(173.4,255,0) ; font-size: 18.6vw; padding-top: 8.0vh; }
+85% { color: rgb(178.5,255,0) ; font-size: 19.0vw; padding-top: 7.5vh; }
+86% { color: rgb(183.6,255,0) ; font-size: 19.4vw; padding-top: 7.0vh; }
+87% { color: rgb(188.7,255,0) ; font-size: 19.8vw; padding-top: 6.5vh; }
+88% { color: rgb(193.8,255,0) ; font-size: 20.2vw; padding-top: 6.0vh; }
+89% { color: rgb(198.9,255,0) ; font-size: 20.6vw; padding-top: 5.5vh; }
+90% { color: rgb(204.0,255,0) ; font-size: 21.0vw; padding-top: 5.0vh; }
+91% { color: rgb(209.1,255,0) ; font-size: 21.4vw; padding-top: 4.5vh; }
+92% { color: rgb(214.2,255,0) ; font-size: 21.8vw; padding-top: 4.0vh; }
+93% { color: rgb(219.3,255,0) ; font-size: 22.2vw; padding-top: 3.5vh; }
+94% { color: rgb(224.4,255,0) ; font-size: 22.6vw; padding-top: 3.0vh; }
+95% { color: rgb(229.5,255,0) ; font-size: 23.0vw; padding-top: 2.5vh; }
+96% { color: rgb(234.6,255,0) ; font-size: 23.4vw; padding-top: 2.0vh; }
+97% { color: rgb(239.7,255,0) ; font-size: 23.8vw; padding-top: 1.5vh; }
+98% { color: rgb(244.8,255,0) ; font-size: 24.2vw; padding-top: 1.0vh; }
+99% { color: rgb(249.9,255,0) ; font-size: 24.6vw; padding-top: 0.5vh; }
+100% { color: rgb(255.0,255,0) ; font-size: 25.0vw; padding-top: 0.0vh; }
+
+}
+
+@keyframes X{
+    0% { color: rgb(0.0,255,0) ; font-size: 5.0vw; padding-top: 25.0vh; }
+    1% { color: rgb(5.1,255,0) ; font-size: 5.4vw; padding-top: 24.5vh; }
+    2% { color: rgb(10.2,255,0) ; font-size: 5.8vw; padding-top: 24.0vh; }
+    3% { color: rgb(15.3,255,0) ; font-size: 6.2vw; padding-top: 23.5vh; }
+    4% { color: rgb(20.4,255,0) ; font-size: 6.6vw; padding-top: 23.0vh; }
+    5% { color: rgb(25.5,255,0) ; font-size: 7.0vw; padding-top: 22.5vh; }
+    6% { color: rgb(30.6,255,0) ; font-size: 7.4vw; padding-top: 22.0vh; }
+    7% { color: rgb(35.7,255,0) ; font-size: 7.8vw; padding-top: 21.5vh; }
+    8% { color: rgb(40.8,255,0) ; font-size: 8.2vw; padding-top: 21.0vh; }
+    9% { color: rgb(45.9,255,0) ; font-size: 8.6vw; padding-top: 20.5vh; }
+    10% { color: rgb(51.0,255,0) ; font-size: 9.0vw; padding-top: 20.0vh; }
+    11% { color: rgb(56.1,255,0) ; font-size: 9.4vw; padding-top: 19.5vh; }
+    12% { color: rgb(61.2,255,0) ; font-size: 9.8vw; padding-top: 19.0vh; }
+    13% { color: rgb(66.3,255,0) ; font-size: 10.2vw; padding-top: 18.5vh; }
+    14% { color: rgb(71.4,255,0) ; font-size: 10.6vw; padding-top: 18.0vh; }
+    15% { color: rgb(76.5,255,0) ; font-size: 11.0vw; padding-top: 17.5vh; }
+    16% { color: rgb(81.6,255,0) ; font-size: 11.4vw; padding-top: 17.0vh; }
+    17% { color: rgb(86.7,255,0) ; font-size: 11.8vw; padding-top: 16.5vh; }
+    18% { color: rgb(91.8,255,0) ; font-size: 12.2vw; padding-top: 16.0vh; }
+    19% { color: rgb(96.9,255,0) ; font-size: 12.6vw; padding-top: 15.5vh; }
+    20% { color: rgb(102.0,255,0) ; font-size: 13.0vw; padding-top: 15.0vh; }
+    21% { color: rgb(107.1,255,0) ; font-size: 13.4vw; padding-top: 14.5vh; }
+    22% { color: rgb(112.2,255,0) ; font-size: 13.8vw; padding-top: 14.0vh; }
+    23% { color: rgb(117.3,255,0) ; font-size: 14.2vw; padding-top: 13.5vh; }
+    24% { color: rgb(122.4,255,0) ; font-size: 14.6vw; padding-top: 13.0vh; }
+    25% { color: rgb(127.5,255,0) ; font-size: 15.0vw; padding-top: 12.5vh; }
+    26% { color: rgb(132.6,255,0) ; font-size: 15.4vw; padding-top: 12.0vh; }
+    27% { color: rgb(137.7,255,0) ; font-size: 15.8vw; padding-top: 11.5vh; }
+    28% { color: rgb(142.8,255,0) ; font-size: 16.2vw; padding-top: 11.0vh; }
+    29% { color: rgb(147.9,255,0) ; font-size: 16.6vw; padding-top: 10.5vh; }
+    30% { color: rgb(153.0,255,0) ; font-size: 17.0vw; padding-top: 10.0vh; }
+    31% { color: rgb(158.1,255,0) ; font-size: 17.4vw; padding-top: 9.5vh; }
+    32% { color: rgb(163.2,255,0) ; font-size: 17.8vw; padding-top: 9.0vh; }
+    33% { color: rgb(168.3,255,0) ; font-size: 18.2vw; padding-top: 8.5vh; }
+    34% { color: rgb(173.4,255,0) ; font-size: 18.6vw; padding-top: 8.0vh; }
+    35% { color: rgb(178.5,255,0) ; font-size: 19.0vw; padding-top: 7.5vh; }
+    36% { color: rgb(183.6,255,0) ; font-size: 19.4vw; padding-top: 7.0vh; }
+    37% { color: rgb(188.7,255,0) ; font-size: 19.8vw; padding-top: 6.5vh; }
+    38% { color: rgb(193.8,255,0) ; font-size: 20.2vw; padding-top: 6.0vh; }
+    39% { color: rgb(198.9,255,0) ; font-size: 20.6vw; padding-top: 5.5vh; }
+    40% { color: rgb(204.0,255,0) ; font-size: 21.0vw; padding-top: 5.0vh; }
+    41% { color: rgb(209.1,255,0) ; font-size: 21.4vw; padding-top: 4.5vh; }
+    42% { color: rgb(214.2,255,0) ; font-size: 21.8vw; padding-top: 4.0vh; }
+    43% { color: rgb(219.3,255,0) ; font-size: 22.2vw; padding-top: 3.5vh; }
+    44% { color: rgb(224.4,255,0) ; font-size: 22.6vw; padding-top: 3.0vh; }
+    45% { color: rgb(229.5,255,0) ; font-size: 23.0vw; padding-top: 2.5vh; }
+    46% { color: rgb(234.6,255,0) ; font-size: 23.4vw; padding-top: 2.0vh; }
+    47% { color: rgb(239.7,255,0) ; font-size: 23.8vw; padding-top: 1.5vh; }
+    48% { color: rgb(244.8,255,0) ; font-size: 24.2vw; padding-top: 1.0vh; }
+    49% { color: rgb(249.9,255,0) ; font-size: 24.6vw; padding-top: 0.5vh; }
+    50% { color: rgb(255.0,255,0) ; font-size: 25.0vw; padding-top: 0.0vh; }
+    51% { color: rgb(260.1,255,0) ; font-size: 25.4vw; padding-top: -0.5vh; }
+    52% { color: rgb(255.0,255,0) ; font-size: 25.0vw; padding-top: 0.0vh; }
+    53% { color: rgb(249.9,255,0) ; font-size: 24.6vw; padding-top: 0.5vh; }
+    54% { color: rgb(244.8,255,0) ; font-size: 24.2vw; padding-top: 1.0vh; }
+    55% { color: rgb(239.7,255,0) ; font-size: 23.8vw; padding-top: 1.5vh; }
+    56% { color: rgb(234.6,255,0) ; font-size: 23.4vw; padding-top: 2.0vh; }
+    57% { color: rgb(229.5,255,0) ; font-size: 23.0vw; padding-top: 2.5vh; }
+    58% { color: rgb(224.4,255,0) ; font-size: 22.6vw; padding-top: 3.0vh; }
+    59% { color: rgb(219.3,255,0) ; font-size: 22.2vw; padding-top: 3.5vh; }
+    60% { color: rgb(214.2,255,0) ; font-size: 21.8vw; padding-top: 4.0vh; }
+    61% { color: rgb(209.1,255,0) ; font-size: 21.4vw; padding-top: 4.5vh; }
+    62% { color: rgb(204.0,255,0) ; font-size: 21.0vw; padding-top: 5.0vh; }
+    63% { color: rgb(198.9,255,0) ; font-size: 20.6vw; padding-top: 5.5vh; }
+    64% { color: rgb(193.8,255,0) ; font-size: 20.2vw; padding-top: 6.0vh; }
+    65% { color: rgb(188.7,255,0) ; font-size: 19.8vw; padding-top: 6.5vh; }
+    66% { color: rgb(183.6,255,0) ; font-size: 19.4vw; padding-top: 7.0vh; }
+    67% { color: rgb(178.5,255,0) ; font-size: 19.0vw; padding-top: 7.5vh; }
+    68% { color: rgb(173.4,255,0) ; font-size: 18.6vw; padding-top: 8.0vh; }
+    69% { color: rgb(168.3,255,0) ; font-size: 18.2vw; padding-top: 8.5vh; }
+    70% { color: rgb(163.2,255,0) ; font-size: 17.8vw; padding-top: 9.0vh; }
+    71% { color: rgb(158.1,255,0) ; font-size: 17.4vw; padding-top: 9.5vh; }
+    72% { color: rgb(153.0,255,0) ; font-size: 17.0vw; padding-top: 10.0vh; }
+    73% { color: rgb(147.9,255,0) ; font-size: 16.6vw; padding-top: 10.5vh; }
+    74% { color: rgb(142.8,255,0) ; font-size: 16.2vw; padding-top: 11.0vh; }
+    75% { color: rgb(137.7,255,0) ; font-size: 15.8vw; padding-top: 11.5vh; }
+    76% { color: rgb(132.6,255,0) ; font-size: 15.4vw; padding-top: 12.0vh; }
+    77% { color: rgb(127.5,255,0) ; font-size: 15.0vw; padding-top: 12.5vh; }
+    78% { color: rgb(122.4,255,0) ; font-size: 14.6vw; padding-top: 13.0vh; }
+    79% { color: rgb(117.3,255,0) ; font-size: 14.2vw; padding-top: 13.5vh; }
+    80% { color: rgb(112.2,255,0) ; font-size: 13.8vw; padding-top: 14.0vh; }
+    81% { color: rgb(107.1,255,0) ; font-size: 13.4vw; padding-top: 14.5vh; }
+    82% { color: rgb(102.0,255,0) ; font-size: 13.0vw; padding-top: 15.0vh; }
+    83% { color: rgb(96.9,255,0) ; font-size: 12.6vw; padding-top: 15.5vh; }
+    84% { color: rgb(91.8,255,0) ; font-size: 12.2vw; padding-top: 16.0vh; }
+    85% { color: rgb(86.7,255,0) ; font-size: 11.8vw; padding-top: 16.5vh; }
+    86% { color: rgb(81.6,255,0) ; font-size: 11.4vw; padding-top: 17.0vh; }
+    87% { color: rgb(76.5,255,0) ; font-size: 11.0vw; padding-top: 17.5vh; }
+    88% { color: rgb(71.4,255,0) ; font-size: 10.6vw; padding-top: 18.0vh; }
+    89% { color: rgb(66.3,255,0) ; font-size: 10.2vw; padding-top: 18.5vh; }
+    90% { color: rgb(61.2,255,0) ; font-size: 9.8vw; padding-top: 19.0vh; }
+    91% { color: rgb(56.1,255,0) ; font-size: 9.4vw; padding-top: 19.5vh; }
+    92% { color: rgb(51.0,255,0) ; font-size: 9.0vw; padding-top: 20.0vh; }
+    93% { color: rgb(45.9,255,0) ; font-size: 8.6vw; padding-top: 20.5vh; }
+    94% { color: rgb(40.8,255,0) ; font-size: 8.2vw; padding-top: 21.0vh; }
+    95% { color: rgb(35.7,255,0) ; font-size: 7.8vw; padding-top: 21.5vh; }
+    96% { color: rgb(30.6,255,0) ; font-size: 7.4vw; padding-top: 22.0vh; }
+    97% { color: rgb(25.5,255,0) ; font-size: 7.0vw; padding-top: 22.5vh; }
+    98% { color: rgb(20.4,255,0) ; font-size: 6.6vw; padding-top: 23.0vh; }
+    99% { color: rgb(15.3,255,0) ; font-size: 6.2vw; padding-top: 23.5vh; }
+    100% { color: rgb(10.2,255,0) ; font-size: 5.8vw; padding-top: 24.0vh; }
+    
+    
 }
