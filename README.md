@@ -1,2 +1,0 @@
-# hechix.github.io
-Hechix
