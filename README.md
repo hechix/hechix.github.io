@@ -1,2 +1,1 @@
-# hechix.github.io
-Hechix
+# [hechix.github.io](https://hechix.github.io)
